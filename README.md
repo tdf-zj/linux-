@@ -66,14 +66,16 @@
    * Tab：自动补全功能  
 
 ## 2.文件夹的创建/删除/移动命令
-  2.1 创建  
+2.1创建  
   * touch test.txt：在当前目录下创建test.txt文件  
   * touch .test1.txt ：创建test1.txt隐藏文件 .代表隐藏  
-  * mkdir（make directory缩写） bb：在当前目录下创建bb文件夹  
-2.2 删除  
+  * mkdir（make directory缩写） bb：在当前目录下创建bb文件夹
+
+2.2删除  
   * rm test.txt：删除当前目录下的test.txt文件  
   * rm -d bb：删除当前目录下的bb文件夹  
   * rm -r bb：删除当前目录下的bb文件夹  
+
 2.3复制和移动  
   * 2.3.1 文件（夹）移动  
       - mv test.txt aa：将test.txt文件移动到aa文件夹，也可以使用绝对路径------相当于剪切  
@@ -82,6 +84,7 @@
       - cp test.txt aa：将test.txt文件复制到aa文件夹  
       - cp -r aa/bb：将aa文件夹复制到bb文件夹
       - Which：查看命令文件所在的位置  
+
 2.4文件搜索
   * Find 搜索范围 搜索条件  
   * 示例一：find /home（目录） -name 125.txt（文件名）  
